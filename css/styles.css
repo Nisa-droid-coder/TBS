@@ -1,0 +1,193 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8d34c;
+}
+
+header {
+    background-color: #89CFF0;
+    color: black;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.containerForm {
+    background-color: white; /* Background color of the container */
+    padding: 40px; /* Padding inside the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 500px; /* Increased width for the container */
+    margin: 20px auto; /* Center the container */
+    text-align: center; /* Center text inside the container */
+}
+
+.container {
+    background-color: white; /* Background color of the container */
+    padding: 20px; /* Padding inside the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 300px; /* Fixed width for the container */
+    margin: 20px auto; /* Center the container */
+    text-align: center; /* Center text inside the container */
+}
+
+h2 {
+    text-align: center;
+}
+
+main {
+    margin: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    margin: 5px 0;
+    font-weight: bold; /* Make labels bold */
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px; /* Increased padding for better touch targets */
+    font-size: 16px;
+    border: 1px solid #ccc; /* Border for input fields */
+    border-radius: 4px; /* Rounded corners for input fields */
+}
+
+input:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#links {
+    margin-top: 10px; /* Add some space above the links */
+}
+
+#links a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+#links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+/* Navigation and User Profile - Right Alignment */
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: #222;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* User Profile */
+.user-icon {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.user-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('pics/tow.png') center/cover no-repeat; /* Existing background */
+    text-align: center;
+    padding: 100px 40px;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Services Section */
+.services {
+    display: flex;
+    text-align: center;
+}
+
+.service-box {
+    flex: 1;
+    padding: 30px;
+    background-color: #f8d34c;
+    border-right: 2px solid #fff;
+}
+
+.service-box:last-child {
+    border-right: none;
+}
+
+.service-box h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.service-box p {
+    font-size: 16px;
+}
+
